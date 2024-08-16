@@ -9,7 +9,7 @@ spec:
     email: email@email.com
     privateKeySecretRef:
       name: letsencrypt-sock
-    solvers:
+    solvers: 
     - http01:
         ingress:
           class: nginx
